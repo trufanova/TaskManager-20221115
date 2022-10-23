@@ -5,7 +5,6 @@ FactoryBot.define do
     password
     email
     avatar { 'MyString' }
-    type { 'MyString' }
 
     factory :developer do
       type { 'Developer' }
